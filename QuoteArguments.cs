@@ -30,7 +30,7 @@ using System.Collections;
 public class QuoteArguments
 {
 	public static string Quote(IList args) {
-		StringBuilder sb = new System.Text.StringBuilder();
+		StringBuilder sb = new StringBuilder();
 		foreach (string arg in args) {
 			int backslashes = 0;
 
