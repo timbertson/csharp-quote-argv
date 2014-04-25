@@ -7,4 +7,4 @@ execv.exe: TestMain.cs QuoteArguments.cs
 fuzz: execv.exe
 	python test.py
 
-.PHONY: phony
+.PHONY: bin fuzz
